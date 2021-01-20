@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<entity_cms>
+  <cms id="Delivery">
+    <meta_title>אריזה ושילוח</meta_title>
+    <meta_description>תנאי השימוש והערות בקשר לאריזה ושילוח</meta_description>
+    <meta_keywords>תנאי, אריזה, שילוח, משלוח, משלוחים, תנאים</meta_keywords>
+    <content><h2>משלוחים והחזרות</h2>
+      <h3>אריזת המשלוח שלך</h3>
+      <p>חבילות נשלחות בדרך כלל בתוך 2 ימים לאחר קבלת תשלום ונשלחים באמצעות דואר ישראל עם מספר מעקב. אם אתה מעדיף לשלוח באמצעות דואר רשום עם אישור חתימה נדרש, תחול עלות נוספת, לכן פנה אלינו לפני שתבחר בשיטה זו. לפי בחירת המשלוח שתבצע, אנו נספק לך קישור כדי לעקוב אחר החבילה שלך באינטרנט.</p>
+      <p>דמי המשלוח כוללים דמי טיפול ואריזה וכן עלויות דמי משלוח. דמי הטיפול קבועים, ואילו דמי ההובלה משתנים בהתאם למשקל הכולל של המשלוח. אנו ממליצים לך לקבץ את הפריטים שלך בסדר אחד. לא ניתן לקבץ שתי הזמנות נפרדות בנפרד, ודמי משלוח יחולו על כל אחת מהן. החבילה שלך תישלח על אחריותך בלבד, אך טיפול מיוחד נעשה כדי להגן על חפצים שבירים.</p></content>
+    <link_rewrite>אריזה-ושילוח</link_rewrite>
+  </cms>
+  <cms id="Legal_Notice">
+    <meta_title>הבהרות משפטיות</meta_title>
+    <meta_description>הבהרות משפטיות</meta_description>
+    <meta_keywords>הבהרות, משפט, חוק, אשראי, זכויות</meta_keywords>
+    <content>&lt;h2&gt;משפטי&lt;/h2&gt;&lt;h3&gt;זכויות&lt;/h3&gt;&lt;p&gt;הבהרות:&lt;/p&gt;&lt;p&gt;חנות מקוונת זו נוצרה באמצעות <a href="https://thirtybees.com">thirty bees תוכנת מסחר אלקטרוני</a>, בדוק אל ה<a href="https://thirtybees.com/blog">בלוג שלנו</a> עבור חדשות וייעוץ על מכירת מקוון והפעלת אתר מסחר אלקטרוני שלך.&lt;/p&gt;</content>
+    <link_rewrite>הבהרות-משפטיות</link_rewrite>
+  </cms>
+  <cms id="Terms_and_conditions_of_use">
+    <meta_title>מדיניות שימוש באתר החזרות וביטולי מוצרים</meta_title>
+    <meta_description>מדיניות שימוש באתר החזרות וביטולי מוצרים ועוד</meta_description>
+    <meta_keywords>תנאי, תנאים, שימוש, הערות, מדיניות, החזרות, ביטולים, ביטול עיסקה</meta_keywords>
+    <content>&lt;h3 class=&quot;page-subheading&quot;&gt;חוק 1&lt;/h3&gt;
+      &lt;p class=&quot;bottom-indent&quot;&gt;להאמית קרהשק סכעיט דז מא, מנכם למטכין נשואי מנורךגולר מונפרר סוברט לורם שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט. לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. נולום ארווס סאפיאן - פוסיליס קוויס, אקווזמן קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף מוסן מנת.&lt;/p&gt;
+      &lt;h3 class=&quot;page-subheading&quot;&gt;חוק 2&lt;/h3&gt;
+      &lt;p class=&quot;bottom-indent&quot;&gt;הועניב היושבב שערש שמחויט - שלושע ותלברו חשלו שעותלשך וחאית נובש ערששף. זותה מנק הבקיץ אפאח דלאמת יבש, כאנה ניצאחו נמרגי שהכים תוק, הדש שנרא התידם הכייר וק&lt;/p&gt;
+      &lt;h3 class=&quot;page-subheading&quot;&gt;חוק 3&lt;/h3&gt;
+      &lt;p class=&quot;bottom-indent&quot;&gt;לורם איפסום דולור סיט אמט, קונסקטורר אדיפיסינג אלית קולורס מונפרד אדנדום סילקוף, מרגשי ומרגשח. עמחליף סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך רוגצה. לפמעט מוסן מנת. סחטיר בלובק. תצטנפל בלינדו למרקל אס לכימפו, דול, צוט ומעיוט - לפתיעם ברשג - ולתיעם גדדיש. קוויז דומור ליאמום בלינך רוגצה. לפמעט מוסן מנת. גולר מונפרר סוברט לורם שבצק יהול, לכנוץ בעריר גק ליץ, ושבעגט ליבם סולגק. בראיט ולחת צורק מונחף, בגורמי מגמש&lt;/p&gt;</content>
+    <link_rewrite>תנאים-הגבלים-והערות</link_rewrite>
+  </cms>
+  <cms id="About_us">
+    <meta_title>אודותינו</meta_title>
+    <meta_description>קצת עלינו</meta_description>
+    <meta_keywords>אודותינו, מידע, מי אנחנו</meta_keywords>
+    <content>&lt;div class=&quot;row&quot;&gt;
+      &lt;div class=&quot;col-xs-12 col-sm-4&quot;&gt;
+      &lt;div class=&quot;cms-block&quot;&gt;
+      &lt;h3 class=&quot;page-subheading&quot;&gt;החברה שלנו&lt;/h3&gt;
+      &lt;p&gt;&lt;strong class=&quot;dark&quot;&gt;קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום, לפריקך תצטריק לרטי.&lt;/strong&gt;&lt;/p&gt;
+      &lt;p&gt;קולהע צופעט למרקוח איבן איף, ברומץ כלרשט מיחוצים. קלאצי קוואזי במר מודוף. אודיפו בלאסטיק מונופץ קליר, בנפת נפקט למסון בלרק - וענוף לפרומי בלוף קינץ תתיח לרעח. לת צשחמי צש בליא, מנסוטו צמלח לביקו ננבי, צמוקו בלוקריה שיצמה ברורק.&lt;/p&gt;
+      &lt;ul class=&quot;list-1&quot;&gt;
+      &lt;li&gt;&lt;em class=&quot;icon-ok&quot;&gt;&lt;/em&gt;מוצרים משובחים&lt;/li&gt;
+      &lt;li&gt;&lt;em class=&quot;icon-ok&quot;&gt;&lt;/em&gt;שירות לקוחות אדיב&lt;/li&gt;
+      &lt;li&gt;&lt;em class=&quot;icon-ok&quot;&gt;&lt;/em&gt;אפשרות החזרה עד 14 ימים&lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-xs-12 col-sm-4&quot;&gt;
+      &lt;div class=&quot;cms-box&quot;&gt;
+      &lt;h3 class=&quot;page-subheading&quot;&gt;הצוות שלנו&lt;/h3&gt;
+      &lt;img title=&quot;cms-img&quot; src=&quot;../img/cms/cms-img.jpg&quot; alt=&quot;cms-img&quot; width=&quot;370&quot; height=&quot;192&quot; /&gt;
+      &lt;p&gt;&lt;strong class=&quot;dark&quot;&gt;מוסן מנת. להאמית קרהשק סכעיט דז מא, מנכם למטכין נשואי מנורך &lt;/strong&gt;&lt;/p&gt;
+      &lt;p&gt;צש בליא, מנסוטו צמלח לביקו ננבי, צמוקו בלוקריה שיצמה ברורק. קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק.&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;div class=&quot;col-xs-12 col-sm-4&quot;&gt;
+      &lt;div class=&quot;cms-box&quot;&gt;
+      &lt;h3 class=&quot;page-subheading&quot;&gt;לקוחות מספרים&lt;/h3&gt;
+      &lt;div class=&quot;testimonials&quot;&gt;
+      &lt;div class=&quot;inner&quot;&gt;&lt;span class=&quot;before&quot;&gt;“&lt;/span&gt;קוויז דומור ליאמום בלינך רוגצה. לפמעט מוסן מנת. להאמית קרהשק סכעיט דז מא, מנכם למטכין נשואי מנורך. הועניב היושבב שערש שמחויט - שלושע ותלברו חשלו שעותלשך וחאית נובש ערששף.&lt;span class=&quot;after&quot;&gt;”&lt;/span&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;p&gt;&lt;strong class=&quot;dark&quot;&gt;לורם איפסום דולור סיט אמט&lt;/strong&gt;&lt;/p&gt;
+      &lt;div class=&quot;testimonials&quot;&gt;
+      &lt;div class=&quot;inner&quot;&gt;&lt;span class=&quot;before&quot;&gt;“&lt;/span&gt;צש בליא, מנסוטו צמלח לביקו ננבי, צמוקו בלוקריה שיצמה ברורק. קונסקטורר אדיפיסינג אלית. סת אלמנקום ניסי נון ניבאה. דס איאקוליס וולופטה דיאם. וסטיבולום אט דולור, קראס אגת לקטוס וואל אאוגו וסטיבולום סוליסי טידום בעליק. קונדימנטום קורוס בליקרה, נונסטי קלובר בריקנה סטום, לפריקך תצטריק לרטי.&lt;span class=&quot;after&quot;&gt;”&lt;/span&gt;&lt;/div&gt;
+      &lt;/div&gt;
+      &lt;p&gt;&lt;strong class=&quot;dark&quot;&gt;לורם איפסום דולור סיט אמט&lt;/strong&gt;&lt;/p&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;
+      &lt;/div&gt;</content>
+    <link_rewrite>אודותינו</link_rewrite>
+  </cms>
+  <cms id="Secure_payment">
+    <meta_title>תשלום מאובטח</meta_title>
+    <meta_description>אצלנו בתשלום מאובטח אנו מתכוונים אל</meta_description>
+    <meta_keywords>ויזה, מאסטרכארד, פייפאל, SSL</meta_keywords>
+    <content>&lt;h2&gt;תשלום מאובטח&lt;/h2&gt;&#xD;
+      &lt;h3&gt;התשלום שלנו מאובטח&lt;/h3&gt;&lt;p&gt;עם SSL&lt;/p&gt;&#xD;
+      &lt;h3&gt;שלם בויזה/מסטרקארד/פייפל&lt;/h3&gt;&lt;p&gt;אודות השירותים&lt;/p&gt;</content>
+    <link_rewrite>תשלום-מאובטח</link_rewrite>
+  </cms>
+</entity_cms>

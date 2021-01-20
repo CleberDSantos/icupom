@@ -1,0 +1,36 @@
+<?php
+/** @var InstallControllerHttpWelcome $this */
+$this->displayTemplate('header')
+?>
+
+<?php if (Tools::getMemoryLimit() < Tools::getOctets('128M')): ?>
+	<div class="warnBlock"><?php echo $this->l('thirty bees requires at least 128 MiB of memory to run: please check the memory_limit directive in your php.ini file or contact your host provider about this.'); ?></div>
+<?php endif; ?>
+
+<?php if ($this->canUpgrade): ?>
+	<div class="warnBlock">
+		<img src="theme/img/pict_error.png" alt="" style="vertical-align: middle;" /> &nbsp;
+		<?php echo $this->l(
+			'<b>Warning: You cannot use this tool to upgrade your store anymore.</b><br /><br />You already have <b>thirty bees version %1$s installed</b>.<br /><br />Use module Core Updater to update to the latest version.',
+			_TB_VERSION_
+		) ?></div>
+<?php endif; ?>
+
+<h2><?php echo $this->l('Welcome to the thirty bees %s Installer', _TB_INSTALL_VERSION_) ?></h2>
+<p><?php echo $this->l('Installing thirty bees is quick and easy. In just a few moments, you will become part of a community consisting of more than one merchant. You are on the way to creating your own unique online store that you can manage easily every day.') ?></p>
+
+<!-- List of languages -->
+<?php if (count($this->language->getIsoList()) > 1): ?>
+	<h3><?php echo $this->l('Continue the installation in:') ?></h3>
+	<select id="langList" name="language">
+	<?php foreach ($this->language->getIsoList() as $iso): ?>
+		<option value="<?php echo $iso ?>" <?php if ($iso == $this->language->getLanguageIso()) echo 'selected="selected"' ?>>
+			<?php echo $this->language->getLanguage($iso)->getMetaInformation('name') ?>
+		</option>
+	<?php endforeach; ?>
+	</select>
+<?php endif; ?>
+
+<p><?php echo $this->l('The language selection above only applies to the Installation Assistant. Once your store is installed, you can choose the language of your store from over %d translations, all for free!', 60); ?> </p>
+
+<?php $this->displayTemplate('footer') ?>

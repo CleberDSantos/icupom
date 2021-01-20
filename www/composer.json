@@ -1,0 +1,46 @@
+{
+    "require": {
+        "php": "^5.6|^7.0",
+        "guzzlehttp/guzzle": "~6.0",
+        "swiftmailer/swiftmailer": "~5.4",
+        "tecnickcom/tcpdf": "~6.2",
+        "phpoffice/phpexcel": "^1.8",
+        "commerceguys/intl": "^0.7.4",
+        "ezyang/htmlpurifier": "^4.8",
+        "jakeasmith/http_build_url": "^1.0",
+        "mrclay/minify": "^2.3",
+        "greenlion/php-sql-parser": "^4.1",
+        "thirtybees/geoip": "^1.17",
+        "smarty/smarty": "3.1.31",
+        "pear/archive_tar": "^1.4",
+        "mobiledetect/mobiledetectlib": "^2.8",
+        "dlundgren/css-splitter": "^1.0",
+        "symfony/polyfill-mbstring": "^1.3",
+        "defuse/php-encryption": "^2.0",
+        "pclzip/pclzip": "~2.8.2",
+        "vierbergenlars/php-semver": "~2.1.0",
+        "paragonie/random_compat": "<9.99"
+    },
+    "require-dev": {
+        "php-coveralls/php-coveralls": "^1.0",
+        "phpunit/phpunit": "~4.8 || ~5.7 || ~6.0",
+        "codeception/codeception": "2.2.9",
+        "codeception/aspect-mock": "^1.0 || ^2.0"
+    },
+    "repositories": [
+        {
+            "type": "package",
+            "package": {
+                "name": "thirtybees/geoip",
+                "version": "1.18",
+                "dist": {
+                    "url": "https://github.com/thirtybees/geoip-api-php/archive/v1.18.zip",
+                    "type": "zip"
+                }
+            }
+        }
+    ],
+    "config": {
+        "autoloader-suffix": "ThirtybeesVendor"
+    }
+}

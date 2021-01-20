@@ -1,0 +1,159 @@
+.blockcategories .title_block {
+  margin: 0;
+}
+
+.blockcategories .list-group-item {
+  padding: 0 20px 0 0;
+  line-height: 40px;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-top: 1px solid #eee;
+}
+
+.blockcategories .list-group-item.active {
+  border-color: #eee;
+}
+
+.blockcategories .list-group .list-group {
+  margin: 0;
+}
+
+.blockcategories .list-group .list-group .list-group-item:last-child {
+  margin-bottom: -1px;
+}
+
+.blockcategories .list-group-item-wrapper {
+  position: relative;
+}
+
+.blockcategories .list-group-item-wrapper .list-group-item {
+  margin-right: 32px;
+}
+
+.blockcategories .list-group-item-wrapper .btn-toggle {
+  display: block;
+  height: 100%;
+  width: 32px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  line-height: 32px;
+  text-align: center;
+  border: 1px solid #eee;
+  border-left: none;
+  border-right: none;
+  font-size: 20px;
+  padding-top: 5px;
+}
+
+.blockcategories .list-group-item-wrapper .btn-toggle.collapsed > .icon:before {
+  content: "\f0d7";
+}
+
+.blockcategories .list-group-item.current:before {
+  display: block;
+  content: '\25b6';
+  position: absolute;
+  left: -5px;
+  font-size: 20px;
+  line-height: 20px;
+  color: #ff6f61;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #666;
+  height: 20px;
+  top: 50%;
+  margin-top: -10px;
+}
+
+.blockcategories .list-group-item.ilvl-2 {
+  padding-left: 25px;
+}
+
+.blockcategories .list-group-item.ilvl-3 {
+  padding-left: 35px;
+}
+
+.blockcategories .ilvl-1.btn-toggle {
+  color: #555;
+}
+
+.blockcategories .ilvl-1:hover {
+  background-color: #fff;
+  color: #ff6f61;
+  border-color: #eee;
+}
+
+.blockcategories .ilvl-1:hover.active, .blockcategories .ilvl-1:hover:hover, .blockcategories .ilvl-1:hover:focus {
+  color: #ff6f61;
+  border-color: #eee;
+  background-color: #fff;
+}
+
+.blockcategories .ilvl-2 {
+  background-color: #fff;
+  color: #4d4d4d;
+  border-color: #eee;
+}
+
+.blockcategories .ilvl-2.active, .blockcategories .ilvl-2:hover, .blockcategories .ilvl-2:focus {
+  color: #4d4d4d;
+  border-color: #eee;
+  background-color: #fff;
+}
+
+.blockcategories .ilvl-2:hover {
+  color: #ff6f61;
+}
+
+.blockcategories .ilvl-3 {
+  background-color: #fff;
+  color: #666666;
+  border-color: #eee;
+}
+
+.blockcategories .ilvl-3.active, .blockcategories .ilvl-3:hover, .blockcategories .ilvl-3:focus {
+  color: #666666;
+  border-color: #eee;
+  background-color: #fff;
+}
+
+.blockcategories .ilvl-3:hover {
+  color: #ff6f61;
+}
+
+.blockcategories .list-group-item-wrapper.active > .ilvl-1 {
+  background-color: #fff;
+  color: #ff6f61;
+  border-color: #eee;
+}
+
+.blockcategories .list-group-item-wrapper.active > .ilvl-1.active, .blockcategories .list-group-item-wrapper.active > .ilvl-1:hover, .blockcategories .list-group-item-wrapper.active > .ilvl-1:focus {
+  color: #ff6f61;
+  border-color: #eee;
+  background-color: #fff;
+}
+
+.blockcategories .list-group-item-wrapper.active > .ilvl-2 {
+  background-color: #fff;
+  color: #4d4d4d;
+  border-color: #eee;
+}
+
+.blockcategories .list-group-item-wrapper.active > .ilvl-2.active, .blockcategories .list-group-item-wrapper.active > .ilvl-2:hover, .blockcategories .list-group-item-wrapper.active > .ilvl-2:focus {
+  color: #4d4d4d;
+  border-color: #eee;
+  background-color: #fff;
+}
+
+.blockcategories .list-group-item-wrapper.active > .ilvl-3 {
+  background-color: #fff;
+  color: #666666;
+  border-color: #eee;
+}
+
+.blockcategories .list-group-item-wrapper.active > .ilvl-3.active, .blockcategories .list-group-item-wrapper.active > .ilvl-3:hover, .blockcategories .list-group-item-wrapper.active > .ilvl-3:focus {
+  color: #666666;
+  border-color: #eee;
+  background-color: #fff;
+}

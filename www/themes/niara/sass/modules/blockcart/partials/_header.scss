@@ -1,0 +1,76 @@
+$bc-header-bg: transparent;
+$bc-header-color: #121212;
+
+#blockcart {
+  position: relative;
+  margin-top: 30px;
+  text-align: right;
+
+  @media (max-width: $screen-xs-max) {
+    margin-top: 15px;
+  }
+
+  @media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+    margin-top: 10px;
+  }
+
+  @media (min-width: $screen-md) and (max-width: $screen-md-max) {
+    margin-top: 20px;
+  }
+}
+
+.ajax_cart_total {
+  display: none !important;
+}
+
+#blockcart-header {
+
+  // Make this block the same dimensions as input-lg (search block to the left)
+  // @see /sass/vendor/bootstrap/bootstrap/_forms.scss
+  height: $input-height-large;
+  padding: 0 $padding-large-horizontal;
+  // font-size: $font-size-large;
+  line-height: $input-height-large;
+
+  background: $bc-header-bg;
+  color: $bc-header-color;
+  display: block;
+  overflow: hidden;
+  font-weight: 300;
+
+  &:before{
+    content: "\f291";
+    font-family: $font-icon;
+    font-size: 1.6em;
+    display: inline-block;
+    margin-right: 5px;
+    vertical-align: 6%;
+    color: $link-hover-color
+  }
+  &:hover {
+    &:before {
+      color: $gray-darker;
+    }
+  }
+  b{
+    font-weight: 500;
+  }
+  .ajax_cart_product_txt,
+  .ajax_cart_product_txt_s,
+  .ajax_cart_no_product{
+    display: none !important;
+  }
+  .ajax_cart_quantity{
+    position: absolute;
+    top: 0;
+    right: 38px;
+    display: block !important;
+    min-width: 20px;
+    min-height: 20px;
+    line-height: 20px;
+    background: $gray-darker;
+    text-align: center;
+    color: #fff;
+    border-radius: 50%;
+  }
+}

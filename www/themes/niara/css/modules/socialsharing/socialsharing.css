@@ -1,0 +1,20 @@
+.btn-facebook,
+.btn-twitter,
+.btn-pinterest {
+  font-size: 0;
+  color: #ccc;
+  background-color: transparent;
+  padding: 6px;
+}
+
+.btn-facebook:hover,
+.btn-twitter:hover,
+.btn-pinterest:hover {
+  color: #c1a95e;
+}
+
+.btn-facebook i,
+.btn-twitter i,
+.btn-pinterest i {
+  font-size: initial;
+}

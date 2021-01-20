@@ -1,0 +1,80 @@
+/**
+ * Copyright (C) 2017-2019 thirty bees
+ * Copyright (C) 2007-2016 PrestaShop SA
+ *
+ * thirty bees is an extension to the PrestaShop software by PrestaShop SA.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE.md.
+ * It is also available through the world-wide-web at this URL:
+ * https://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@thirtybees.com so we can send you a copy immediately.
+ *
+ * @author    thirty bees <modules@thirtybees.com>
+ * @author    PrestaShop SA <contact@prestashop.com>
+ * @copyright 2017-2019 thirty bees
+ * @copyright 2007-2016 PrestaShop SA
+ * @license   Academic Free License (AFL 3.0)
+ * PrestaShop is an internationally registered trademark of PrestaShop SA.
+ */
+
+/* Block newsletter */
+#newsletter_block_left {
+	padding:7px;
+	border:1px solid #ccc;
+	background:#eee;
+}
+#newsletter_block_left .title_block, #newsletter_block_left h4  {
+	padding:0 0 12px 28px;
+	color:#666;
+	text-shadow:0 1px 0 #fff;
+	background:url(img/icon/newsletter.png) no-repeat 0 0 transparent;
+}
+#newsletter_block_left p {padding:0;}
+
+#newsletter_block_left p.success_inline {
+	color: #418B19;
+	text-align: center;
+	font-weight: bold;
+}
+#newsletter_block_left p.warning_inline {
+	color: #DA0F00;
+	text-align: center;
+	font-weight: bold;
+}
+
+#newsletter_block_left input.inputNew {
+	position: relative;
+	top: -1px;
+	padding:0 5px;
+	height:20px;
+	width:148px;
+	border:1px solid #ccc;
+	border-right:none;
+	-moz-border-radius-topleft: 3px;
+	-moz-border-radius-bottomleft: 3px;
+	-webkit-border-radius-topleft: 3px;
+	-webkit-border-radius-bottomleft: 3px;
+	border-top-left-radius: 3px;
+	border-bottom-left-radius: 3px;
+	font-size:10px;
+	color:#999;
+}
+*:first-child+html #newsletter_block_left input.inputNew {position:static;}/* hack ie 7 */
+
+#newsletter_block_left input.button_mini {
+	position:relative;
+	left:-2px;
+	height:23px;
+	width:24px;
+	border:0;
+	text-indent:-5000px;
+	background:url(img/bg_bt_newsletter_ok.png) no-repeat 0 0;
+	cursor:pointer
+}
+*:first-child+html #newsletter_block_left input.button_mini {padding-left:24px !important;}/* hack ie 7 */
+

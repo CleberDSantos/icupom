@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<entity_feature_value>
+  <feature_value id="Yes_Organic">
+    <value>Ja</value>
+  </feature_value>
+  <feature_value id="No_Organic">
+    <value>Nee</value>
+  </feature_value>
+  <feature_value id="Yes_Vegan">
+    <value>Ja</value>
+  </feature_value>
+  <feature_value id="No_Vegan">
+    <value>Nee</value>
+  </feature_value>
+  <feature_value id="Yes_Exclusive">
+    <value>Ja</value>
+  </feature_value>
+  <feature_value id="No_Exclusive">
+    <value>Nee</value>
+  </feature_value>
+</entity_feature_value>

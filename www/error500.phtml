@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <meta name="description" content="This store is powered by thirty bees." />
+        <style>
+            ::-moz-selection {
+                background: #b3d4fc;
+                text-shadow: none;
+            }
+
+            ::selection {
+                background: #b3d4fc;
+                text-shadow: none;
+            }
+
+            html {
+                padding: 30px 10px;
+                font-size: 16px;
+                line-height: 1.4;
+                color: #737373;
+                background: #f0f0f0;
+                -webkit-text-size-adjust: 100%;
+                -ms-text-size-adjust: 100%;
+            }
+
+            html,
+            input {
+                font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            }
+
+            body {
+                max-width:600px;
+                _width: 600px;
+                padding: 30px 20px 50px;
+                border: 1px solid #b3b3b3;
+                border-radius: 4px;
+                margin: 0 auto;
+                box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+                background: #fcfcfc;
+            }
+
+            h1 {
+                margin: 0 10px;
+                font-size: 50px;
+                text-align: center;
+            }
+
+            h1 span {
+                color: #bbb;
+            }
+            h2 {
+                color: #fad629;
+                margin: 0 10px;
+                font-size: 40px;
+                text-align: center;
+            }
+
+            h2 span {
+                color: #bbb;
+                font-size: 60px;
+            }
+
+            h3 {
+                margin: 1.5em 0 0.5em;
+            }
+
+            p {
+                margin: 1em 0;
+            }
+
+            a {
+                color: #d8b81c;
+            }
+
+            ul {
+                padding: 0 0 0 40px;
+                margin: 1em 0;
+            }
+
+            .container {
+                max-width: 380px;
+                _width: 380px;
+                margin: 0 auto;
+            }
+
+            input::-moz-focus-inner {
+                padding: 0;
+                border: 0;
+            }
+
+            pre {
+                white-space: pre-wrap;       /* Since CSS 2.1 */
+                white-space: -moz-pre-wrap;  /* Mozilla, since 1999 */
+                white-space: -pre-wrap;      /* Opera 4-6 */
+                white-space: -o-pre-wrap;    /* Opera 7 */
+                word-wrap: break-word;       /* Internet Explorer 5.5+ */
+                width: 400px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h2 id="errorTitle"><span>500</span> Server Error</h2>
+            <p id="errorMessage">
+                Oops, something went wrong. You can try to refresh this page
+            </p>
+            <p>
+                If the problem persists please feel free to <a href="mailto:<?= $shopEmail ?>?subject=Server%20Error">contact us</a>.
+                Make sure to <a id="downloadError">download</a> encrypted error message and
+                attach it to your email. That will help our engineers to solve this problem quickly.
+            </p>
+            <br/>
+        </div>
+        <script type="text/javascript">
+          (function() {
+              var data = '<?= $encrypted ?>';
+              var date = new Date();
+              var year = date.getFullYear();
+              var month = date.getMonth() + 1;
+              var day = date.getDate();
+              var hours = date.getHours();
+              var minutes = date.getMinutes();
+              var seconds = date.getSeconds();
+              var fileName = 'exception_' + year + month + day + hours + minutes + seconds + '.txt';
+              var element = document.getElementById('downloadError');
+              if(window.navigator.msSaveOrOpenBlob) {
+                  var fileData = [data];
+                  blobObject = new Blob(fileData);
+                  element.addEventListener('click', function(){
+                     window.navigator.msSaveOrOpenBlob(blobObject, fileName);
+                  });
+              } else {
+                  var url = "data:text/plain;charset=utf-8," + encodeURIComponent(data);
+                  element.setAttribute("download", fileName);
+                  element.setAttribute("href", url);
+              }
+          }());
+        </script>
+    </body>
+</html>

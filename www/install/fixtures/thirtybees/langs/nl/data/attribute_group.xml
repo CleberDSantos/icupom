@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<entity_attribute_group>
+  <attribute_group id="Flavor">
+    <name>Smaak</name>
+    <public_name>Smaak</public_name>
+  </attribute_group>
+  <attribute_group id="Product">
+    <name>Product</name>
+    <public_name>Product</public_name>
+  </attribute_group>
+  <attribute_group id="Color">
+    <name>Kleur</name>
+    <public_name>Kleur</public_name>
+  </attribute_group>
+  <attribute_group id="Size">
+    <name>Maat</name>
+    <public_name>Maat</public_name>
+  </attribute_group>
+  <attribute_group id="Scent">
+    <name>Geur</name>
+    <public_name>Geur</public_name>
+  </attribute_group>
+</entity_attribute_group>

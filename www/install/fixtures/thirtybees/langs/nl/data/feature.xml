@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<entity_feature>
+  <feature id="Height">
+    <name>Hoogte</name>
+  </feature>
+  <feature id="Width">
+    <name>Breedte</name>
+  </feature>
+  <feature id="Depth">
+    <name>Diepte</name>
+  </feature>
+  <feature id="Weight">
+    <name>Gewicht</name>
+  </feature>
+  <feature id="Organic">
+    <name>Biologisch</name>
+  </feature>
+  <feature id="Vegan">
+    <name>Geschikt voor veganisten</name>
+  </feature>
+  <feature id="Exclusive_Buy">
+    <name>Exclusief</name>
+  </feature>
+</entity_feature>

@@ -1,0 +1,84 @@
+<?php
+/**
+ * Copyright (C) 2017-2019 thirty bees
+ * Copyright (C) 2007-2016 PrestaShop SA
+ *
+ * thirty bees is an extension to the PrestaShop software by PrestaShop SA.
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Academic Free License (AFL 3.0)
+ * that is bundled with this package in the file LICENSE.md.
+ * It is also available through the world-wide-web at this URL:
+ * https://opensource.org/licenses/afl-3.0.php
+ * If you did not receive a copy of the license and are unable to
+ * obtain it through the world-wide-web, please send an email
+ * to license@thirtybees.com so we can send you a copy immediately.
+ *
+ * @author    thirty bees <modules@thirtybees.com>
+ * @author    PrestaShop SA <contact@prestashop.com>
+ * @copyright 2017-2019 thirty bees
+ * @copyright 2007-2016 PrestaShop SA
+ * @license   Academic Free License (AFL 3.0)
+ * PrestaShop is an internationally registered trademark of PrestaShop SA.
+ */
+
+/** @var TbUpdater $this */
+
+$currentPsConfig = $this->getcheckCurrentPsConfig();
+$picOk = '<i class="icon icon-check" style="color: limegreen"></i>';
+$picNok = '<i class="icon icon-times" style="color: firebrick">';
+$picWarn = '<i class="icon icon-check" style="color: orange">';
+$adminDir = trim(str_replace(_PS_ROOT_DIR_, '', _PS_ADMIN_DIR_), DIRECTORY_SEPARATOR);
+$maxExecTime = ini_get('max_execution_time');
+$tools = \TbUpdaterModule\UpgraderTools::getInstance();
+TbUpdaterModule\ConfigurationTest::testDir($adminDir.DIRECTORY_SEPARATOR.$tools->autoupgradeDir, true, $report);
+?>
+
+<div class="panel col-lg-6" id="currentConfigurationBlock">
+	<div class="panel-heading"><?php echo $this->l('The pre-Upgrade checklist'); ?></div>
+    <?php if (!$this->configOk()) : ?>
+    <div class="clear">
+        <p class="warn"><?php echo $this->l('The checklist is not OK. You can only upgrade your shop once all indicators are green.'); ?></p>
+    </div>
+    <?php endif; ?>
+
+	<div id="currentConfiguration">
+		<p><?php echo $this->l('Before starting the upgrade process, please make sure this checklist is all green.'); ?></p>
+		<table class="table" cellpadding="0" cellspacing="0">
+			<tr>
+				<td><?php echo $this->l('Your store\'s root directory is writable (with appropriate CHMOD permissions)'); ?></td>
+				<td><?php echo($currentPsConfig['root_writable'] ? $picOk : $picNok.' '.$tools->rootWritableReport); ?></td>
+			</tr>
+			<tr>
+				<td><?php echo $this->l('The "/admin/autoupgrade" directory is writable (appropriate CHMOD permissions)'); ?></td>
+				<td><?php echo($currentPsConfig['admin_au_writable'] ? $picOk : $picNok.' '.$report); ?></td>
+			</tr>
+            <?php
+            if (!$safeMode = @ini_get('safe_mode')) {
+                $safeMode = '';
+            }
+            $safeMode = in_array(Tools::strtolower($safeMode), [1, 'on']);
+            ?>
+			<tr>
+				<td><?php echo $this->l('PHP\'s "Safe mode" option is turned off'); ?></td>
+				<td><?php echo(!$safeMode ? $picOk : $picWarn); ?></td>
+			</tr>
+			<tr>
+				<td><?php echo $this->l('Your store is in maintenance mode').' '.(!$currentPsConfig['shop_deactivated'] ? '<br><form method="post" action="'.$this->baseUrl.'&putUnderMaintenance"><input type="submit" class="button" name="putUnderMaintenance" value="'.$this->l('Click here to put your shop under maintenance').'"></form>' : ''); ?></td>
+				<td><?php echo($currentPsConfig['shop_deactivated'] ? $picOk : $picNok); ?></td>
+			</tr>
+			<tr>
+				<td><?php echo $this->l('thirty bees\' caching features are disabled'); ?></td>
+				<td><?php echo($currentPsConfig['cache_deactivated'] ? $picOk : $picNok); ?></td>
+			</tr>
+			<tr>
+				<td><?php echo sprintf($this->l('PHP\'s max_execution_time setting has a high value or is disabled entirely (current value: %s)'), ($maxExecTime == 0 ? $this->l('unlimited') : sprintf($this->l('%s seconds'), $maxExecTime))); ?></td>
+				<td><?php echo (!$maxExecTime || $maxExecTime >= 30) ? $picOk : $picNok; ?></td>
+			</tr>
+		</table>
+        <div class="panel-footer">
+            <strong><?php echo $this->l('Please also make sure to make a full manual backup of your files and database.'); ?></strong>
+        </div>
+	</div>
+</div>

@@ -1,0 +1,48 @@
+	</div><!-- div id="sheet_step" -->
+</div><!-- div id="sheets" -->
+
+<div id="buttons">
+	<?php if (!$this->isLastStep()): ?>
+		<?php if ($this->nextButton): ?>
+			<input id="btNext" class="button little" type="submit" name="submitNext" value="<?php echo $this->l('Next') ?>" />
+		<?php else: ?>
+			<input id="btNext" class="button little disabled" type="submit" name="submitNext" value="<?php echo $this->l('Next') ?>" disabled="disabled" />
+		<?php endif; ?>
+	<?php endif; ?>
+
+	<?php if (!$this->isFirstStep() && $this->previousButton): ?>
+		<input id="btBack" class="button little" type="submit" name="submitPrevious" value="<?php echo $this->l('Back') ?>" />
+	<?php endif; ?>
+</div>
+</form>
+
+<div id="jerry-bottom">
+	<iframe id='ad654334'
+		name='ad654334'
+		src='https://jerry.thirtybees.com/www/delivery/afr.php?zoneid=1&amp;cb=5'
+		frameborder='0'
+		scrolling='no'
+		width='728'
+		height='90'
+	>
+		<a href='https://jerry.thirtybees.com/www/delivery/ck.php?n=a73ddcff&amp;cb=5' target='_blank'>
+			<img src='https://jerry.thirtybees.com/www/delivery/avw.php?zoneid=1&amp;cb=2&amp;n=a73ddcff' border='0' alt='' />
+		</a>
+	</iframe>
+</div>
+
+<div id="phone_help">
+	<?php echo sprintf($this->l('If you need some assistance, you can <a href="%1$s" onclick="return !window.open(this.href);">get tailored help</a> from our support team. <a href="%2$s" onclick="return !window.open(this.href);">The official documentation</a> is also here to guide you.'), $this->getTailoredHelp(), $this->getDocumentationLink()) ?>
+</div>
+</div><!-- div id="container" -->
+
+<ul id="footer">
+	<li><a href="<?php echo $this->getForumLink() ?>" title="<?php echo $this->l('Official forum'); ?>" target="_blank"><?php echo $this->l('Official forum'); ?></a> | </li>
+	<li><a href="https://thirtybees.com" title="thirtybees.com" target="_blank">thirtybees.com</a> | </li>
+	<li><a href="<?php echo $this->getSupportLink() ?>" title="<?php echo $this->l('Support'); ?>" target="_blank"><?php echo $this->l('Support'); ?></a> | </li>
+	<li><a href="<?php echo $this->getDocumentationLink() ?>" title="<?php echo $this->l('Documentation'); ?>" target="_blank"><?php echo $this->l('Documentation'); ?></a> | </li>
+	<li><a href="https://www.thirtybees.com/contact" title="<?php echo $this->l('Contact us'); ?>" target="_blank"><?php echo $this->l('Contact us'); ?></a> | </li>
+	<li>&copy; 2007-<?php echo date('Y'); ?></li>
+</ul>
+</body>
+</html>

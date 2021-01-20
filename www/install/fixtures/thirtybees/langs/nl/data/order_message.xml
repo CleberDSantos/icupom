@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<entity_order_message>
+  <order_message id="Delay">
+    <name>Vertraging</name>
+    <message>Hallo,
+
+Hellaas is een enkel item van uw bestelling momenteel niet op voorraad. Dit kan zorgen voor een kleine vertraging.
+Onze excuses voor het ongemak. We zullen er alles aan doen om het zo spoedig mogelijk alsnog te leveren.
+
+Met vriendelijke groeten,</message>
+  </order_message>
+</entity_order_message>

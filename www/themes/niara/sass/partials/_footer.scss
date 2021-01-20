@@ -1,0 +1,47 @@
+#footer {
+  background: #121212;
+  border-top: 1px solid #333;
+  padding: 15px 0;
+  color: $gray-lighter;
+  .footer-title,
+  .title_block{
+    font-size:16px;
+    color: #fff;
+    font-weight: 300;
+  }
+  a{
+    color: $gray-lighter;
+  }
+  a:hover{
+    color: $link-hover-color;
+  }
+  li{
+    padding-bottom: 0.3em;
+    padding-top: 0.3em;
+  }
+  .icon-2x{
+    font-size: 1.4em;
+  }
+  #newsletter-input.form-control{
+    background: #121212;
+    border-color: $gray-lighter;
+    color: $gray-light;
+  }
+  .btn{
+    background: #121212;
+    border-top: 1px solid $gray-lighter;
+    border-right: 1px solid $gray-lighter;
+    border-bottom: 1px solid $gray-lighter;
+    border-left:none;
+    color: $gray-lighter;
+  }
+  #blockcontactinfos .icon{
+    /*display: none;*/
+  }
+}
+
+#copyright-footer {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}

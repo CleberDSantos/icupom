@@ -1,0 +1,18 @@
+
+@import "./../../theme_variables";
+@import "./../../vendor_variables";
+
+.btn-facebook,
+.btn-twitter,
+.btn-pinterest{
+  font-size: 0;
+  color: #ccc;
+  background-color: transparent;
+  padding: 6px;
+  &:hover {
+    color: #c1a95e;
+  }
+  i{
+    font-size: initial;
+  }
+}

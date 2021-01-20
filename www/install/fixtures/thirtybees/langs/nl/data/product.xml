@@ -1,0 +1,91 @@
+<?xml version="1.0"?>
+<entity_product>
+  <product id="Candle" id_shop="1">
+    <description>Onze kaarsen zijn gemaakt van de hoogste kwaliteit paraffine in de wereld. We gebruiken ook stevige berkhoutsoorten voor het omhulsel waardoor er een uniek geluid ontstaat als de kaars brandt. De geur van de kaarsen wordt verzorgd door de beste Parijse leveranciers in de wereld.</description>
+    <description_short>Onze bekende kaarsen komen in drie maten en twee verschillende geuren, voor ieder wat wils.</description_short>
+    <link_rewrite>kaars</link_rewrite>
+    <meta_description/>
+    <meta_keywords/>
+    <meta_title/>
+    <name>Kaars</name>
+    <available_now>Op voorraad</available_now>
+    <available_later/>
+  </product>
+  <product id="Soap" id_shop="1">
+    <description>We gebruiken alleen de beste ingrediënten voor onze zeep. Ze worden handgemaakt in kleine batches, de ouderwetse manier om een hoge kwaliteit en consistentie te garanderen. Al onze zepen zijn hypoallergeen.</description>
+    <description_short>Onze zepen zijn beschikbaar als body wash, shampoo en conditioner.</description_short>
+    <link_rewrite>zeep</link_rewrite>
+    <meta_description/>
+    <meta_keywords/>
+    <meta_title/>
+    <name>Zeep</name>
+    <available_now>Op voorraad</available_now>
+    <available_later/>
+  </product>
+  <product id="Coffee" id_shop="1">
+    <description>Onze koffie is ons bekendste product. Het wordt langzaam geroosterd om de zuurgraad laag te houden, waardoor onze koffie zijn fijne, frisse en noot-achtige smaak krijgt. We gebruiken alleen de bonen die afkomstig van boeren die een eerlijke bedrag krijgen voor hun bonen. Wij geloven in een duurzame koffiehandel.</description>
+    <description_short>Onze koffie is beschikbaar in drie varianten: light, dark, en blonde.</description_short>
+    <link_rewrite>koffiebonen</link_rewrite>
+    <meta_description/>
+    <meta_keywords/>
+    <meta_title/>
+    <name>Koffie</name>
+    <available_now>Op voorraad</available_now>
+    <available_later/>
+  </product>
+  <product id="Tin_Cup" id_shop="1">
+    <description>Onze tinnen thirty bees koffiekopjes zijn de perfecte kopjes voor het drinken van zowel koffie als thee. Ze zijn duurzaam dankzij de poederlak als finish. Hebben we al benadrukt hoe stijlvol en veelzijdig ze zijn? Neem het mee in uw tas voor bij het kamperen! </description>
+    <description_short>De stijlvolle thirty bees kopjes, perfect voor thee.</description_short>
+    <link_rewrite>tinnen-kopjes</link_rewrite>
+    <meta_description/>
+    <meta_keywords/>
+    <meta_title/>
+    <name>Tinnen kopjes</name>
+    <available_now>Op voorraad</available_now>
+    <available_later/>
+  </product>
+  <product id="Picture_Frame" id_shop="1">
+    <description>Muren hebben kunst nodig, daarom zul je dolenthiousiast zijn over onze fotolijstjes. Ze komen in drie verschillende houtkleuren, zodat ze in elk interieur passen. Geef het perfecte cadeau, een thirty bees fotolijstje. </description>
+    <description_short>Onze stijlvolle, moderne, minimalistische fotolijstjes in drie kleuren.</description_short>
+    <link_rewrite>fotolijstje</link_rewrite>
+    <meta_description/>
+    <meta_keywords/>
+    <meta_title/>
+    <name>Fotolijstje</name>
+    <available_now>Op voorraad</available_now>
+    <available_later/>
+  </product>
+  <product id="Mug" id_shop="1">
+    <description>De thirty bees koffiemok is de perfect mok om onze beroemde koffie uit te drinken. De mok komt in drie verschillende kleuren, zodat je altijd in de perfect mok kunt genieten van onze koffie. Ongeacht je stijl. </description>
+    <description_short>Dol op koffiemokken? Dan kan deze zeker niet ontbreken in je collectie.</description_short>
+    <link_rewrite>koffiemok</link_rewrite>
+    <meta_description/>
+    <meta_keywords/>
+    <meta_title/>
+    <name>Koffiemok</name>
+    <available_now>Op voorraad</available_now>
+    <available_later/>
+  </product>
+  <product id="Tea" id_shop="1">
+    <description>Onze thee wordt handgeplukt en handgedroogd op de plantage. Wij geloven niet in het gebruik van machines voor thee, elk blaadje moet handmatig worden geïnspecteerd op onregelmatigheden en slechts 25% van de theebladeren volstaan om gebruikt te mogen worden als thirty bees thee. We hebben vijf verschillende edities, één voor elke smaak.</description>
+    <description_short>Tijd voor thee? Elk moment is het tijd voor thee met één van onze geweldige 5 theeën.</description_short>
+    <link_rewrite>thee</link_rewrite>
+    <meta_description/>
+    <meta_keywords/>
+    <meta_title/>
+    <name>Thee</name>
+    <available_now>Op voorraad</available_now>
+    <available_later/>
+  </product>
+  <product id="Honey" id_shop="1">
+    <description>Ons honingsetje is de perfecte manier om je koffie of thee zoeter te maken. Onze honing wordt gemaakt van de hardstwerkende bijen in het gehele universum. We geven onze bijen letterlijk geen moment rust. Honing produceren is de bij zijn liefste bezigheid zodat mensen over de gehele wereld ervan kunnen genieten.</description>
+    <description_short>Onze honingsetjes komen in drie verschillende varianten, één voor iders smaak.</description_short>
+    <link_rewrite>honing</link_rewrite>
+    <meta_description/>
+    <meta_keywords/>
+    <meta_title/>
+    <name>Honing</name>
+    <available_now>Op voorraad</available_now>
+    <available_later/>
+  </product>
+</entity_product>

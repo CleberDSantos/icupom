@@ -1,0 +1,11 @@
+Witaj {firstname} {lastname}!
+
+Oto dane logowania dla sklepu {shop_name}:
+
+Hasło: {passwd}
+E-mail: {email}
+
+
+{shop_name} - {shop_url}
+
+{shop_url} na silniku thirty bees.

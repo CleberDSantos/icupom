@@ -1,0 +1,11 @@
+Halo {firstname} {lastname},
+
+Berikut adalah informasi login Anda ke {shop_name}:
+
+Password: {passwd}
+E-mail : {email}
+
+
+{shop_name} - {shop_url}
+
+{shop_url} didukung oleh thirty bees.

@@ -1,0 +1,49 @@
+$header-banner-bg: #2c2125;
+$page-body-bg: #fff;
+$page-content-bg: transparent;
+
+body {
+  background-color: $page-body-bg;
+  &.content_only {
+    background-color: $page-content-bg;
+  }
+}
+
+#header-blocks {
+  background-color: $page-content-bg;
+  padding-top: 15px;
+  position: relative;
+}
+
+#columns {
+  position: relative;
+  padding-bottom: 50px;
+  padding-top: 15px;
+  background-color: $page-content-bg;
+  .breadcrumb{
+  font-size: 13px;
+  }
+}
+
+#header-banners {
+  background-color: $header-banner-bg;
+}
+
+#header {
+  .navbar {
+    margin-bottom: 0;
+    font-size: 12px;
+  }
+}
+
+#header-blocks .center-block{
+  margin-left: 0;
+  @media screen and (max-width: $screen-xs) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.top_column_wrapper{
+  background: #f4f4f4;
+}
